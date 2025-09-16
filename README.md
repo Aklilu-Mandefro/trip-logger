@@ -22,7 +22,8 @@
   - Dropoff location
   - Current cycle used
 - Calculate routes using real-time traffic data
-- View logs and download them as PDFs
+- Show route on the Map regarding stops and rests
+- Display Trip details along with a feature to download them as PDFs
 - Responsive design for mobile and desktop devices
 
 
