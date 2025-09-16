@@ -14,14 +14,12 @@ Trip Logger is a full-stack web application designed to help users log their tri
 
 ## Main Features
 
-- User registration and authentication
 - Log trips with details such as:
   - Current location
   - Pickup location
   - Dropoff location
   - Current cycle used
 - Calculate routes using real-time traffic data
-- Generate PDF logs of trips
 - View logs and download them as PDFs
 - Responsive design for mobile and desktop devices
 
