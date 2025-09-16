@@ -9,6 +9,8 @@ Trip Logger is a full-stack web application designed to help users log their tri
 - [SQLite](https://www.sqlite.org/index.html)
 - [Axios](https://axios-http.com/)
 - [Leaflet](https://leafletjs.com/)
+- [OpenCage Geocoding API](https://opencagedata.com/)
+- [Project OSRM](http://project-osrm.org/)
 - [jsPDF](https://github.com/parallax/jsPDF)
 - [HTML5](https://www.w3schools.com/html/)
 
