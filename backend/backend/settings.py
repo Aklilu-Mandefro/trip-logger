@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-+i4q7ntyluip#ai&1qsvsn(4rb49ih@-njz=vo0ne)146u8&$w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [    'localhost',
+    '127.0.0.1',
+    'trip-logger-backend.onrender.com', ]
 
 
 # Application definition
@@ -53,7 +55,10 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True;
+# CORS_ALLOW_ALL_ORIGINS = True;
+CORS_ALLOWED_ORIGINS = [
+    "https://mytrip-logger.vercel.app",  # URL of the frontend
+]
 
 ROOT_URLCONF = 'backend.urls'
 
