@@ -1,6 +1,6 @@
 # ✍️ Trip Logger
 
-Trip Logger is a full-stack web application designed to help users log their trips, calculate routes, and manage their driving hours efficiently. It calculates the most efficient routes based on real-time traffic data, helping users save time and fuel. Whether you're logging daily commutes or planning epic road trips, Trip Logger serves as your partner in exploring the world with confidence.
+**Trip Logger** is a full-stack web application designed to help users log their trips, calculate routes, and manage their driving hours efficiently. It calculates the most efficient routes based on real-time traffic data, helping users save time and fuel. Whether you're logging daily commutes or planning epic road trips, Trip Logger serves as your partner in exploring the world with confidence.
 
 ## 💻⚛️🏗️🛠️ Tech-stacks used
 
