@@ -81,10 +81,7 @@ function App() {
 
   const saveTripData = async (data) => {
     try {
-      const response = await axios.post(
-        "http://localhost:8000/api/trips/",
-        data
-      );
+ const response = await axios.post(`${process.env.REACT_APP_API_URL}/trips/`, data);
       console.log("Trip data saved successfully:", response.data);
       setSuccessMessage("Trip data saved to the database successfully.");
       setTimeout(() => {
@@ -120,7 +117,7 @@ function App() {
     const { currentCoords, pickupCoords, dropoffCoords } = data;
 
     try {
-      const osrmUrl = `http://router.project-osrm.org/route/v1/driving/${currentCoords.lng},${currentCoords.lat};${pickupCoords.lng},${pickupCoords.lat};${dropoffCoords.lng},${dropoffCoords.lat}`;
+      const osrmUrl = `https://router.project-osrm.org/route/v1/driving/${currentCoords.lng},${currentCoords.lat};${pickupCoords.lng},${pickupCoords.lat};${dropoffCoords.lng},${dropoffCoords.lat}`;
 
       const response = await axios.get(osrmUrl, {
         params: {
