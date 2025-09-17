@@ -9,7 +9,7 @@ const Header = () => {
     <h1
       className="logo-content"
       onClick={handleClick}
-      style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "flex-start", marginLeft: "7px" }}
     >
       <img
         src="/trip-logger-logo.png"
