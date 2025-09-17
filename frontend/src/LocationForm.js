@@ -10,6 +10,10 @@ const LocationForm = ({
   setSuccessMessage,
 }) => {
   return (
+    <div>
+      <h2 className="location-form-title">
+      Add Trip Details
+      </h2>
     <form onSubmit={handleSubmit}>
       <input
         type="text"
@@ -57,6 +61,7 @@ const LocationForm = ({
         <p style={{ color: "green", marginLeft: "20px" }}>{successMessage}</p>
       )}
     </form>
+    </div>
   );
 };
 
