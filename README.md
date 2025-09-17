@@ -126,8 +126,8 @@ npm run build
 
 <br>
 
-<a href="https://mytrip-logger.vercel.app/" target="_blank"><img src="https://i.imgur.com/cADkxrr.png" alt="Trip Logger app home page"> </a>
-<a href="https://mytrip-logger.vercel.app/" target="_blank"><img src="https://i.imgur.com/vNVJyuQ.png" alt="Trip Logger app footer"> </a>
+<a href="https://mytrip-logger.vercel.app/" target="_blank"><img src="https://i.imgur.com/Ko8YbFu.png" alt="Trip Logger app home page"> </a>
+<a href="https://mytrip-logger.vercel.app/" target="_blank"><img src="https://i.imgur.com/hdVwwgs.png" alt="Trip Logger app footer"> </a>
 
 
 
